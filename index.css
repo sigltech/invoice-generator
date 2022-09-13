@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 550px;
+  min-height: 719px;
+  background-color: #1F2937;
+}
+
+
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #3A69D2;
+  text-align: center;
+  color: #ffffff;
+  height: 190px;
+  font-family: 'Inter';
+}
+
+header h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 354px;
+  height: 40px;
+  left: 87px;
+  top: 59px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+header p {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 408px;
+  height: 31px;
+  left: 71px;
+  top: 108px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+button {
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  border-radius: 7px;
+  background: #D1D4F4;
+  border: 2px solid #FFFFFF;
+}
+
+#carwash-btn {
+  left: 38px;
+  top: 231px;
+}
+
+#mowlawn-btn {
+  left: 203.44px;
+  top: 231px;
+}
+
+#pullweeds-btn {
+  left: 367.83px;
+  top: 231px;
+}
+
+#task-list {
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  left: 39px;
+  top: 319px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #D5D4D8;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#amount-list {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 432px;
+  top: 323px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  color: #D5D4D8;
+}
+
+#tasks {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 200px;
+  left: 39px;
+  top: 360px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #F5F5F5;
+}
+
+#total {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 441px;
+  top: 361px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+
+  text-align: right;
+  color: #ffffff;
+}
+
+#tasks li, #total li {
+  line-height: 41px;
+}
+
+.output-list span {
+  color: #918E9B;
+}
+
+.sum-line {
+  position: absolute;
+  width: 471px;
+  height: 0px;
+  left: 39px;
+  top: 510px;
+
+  border: 1px solid #C3C6DB;
+}
+
+.notes h2 {
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 39px;
+  top: 509px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+  /* or 267% */
+  color: #D5D4D8;
+}
+
+.notes p {
+  position: absolute;
+  width: 218px;
+  height: 15px;
+  left: 39px;
+  top: 548px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  color: #F5F5F5;
+}
+
+.final-sum h2 {
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 405px;
+  top: 509px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+  /* or 267% */
+  text-align: right;
+  color: #D5D4D8;
+}
+
+.final-sum p {
+  margin: 0;
+  padding: 0;
+  margin-top: 11px;
+  position: absolute;
+  width: 105px;
+  height: 28px;
+  left: 405px;
+  top: 548px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  /* or 89% */
+  text-align: right;
+  color: #F5F5F5;
+}
+
+#reset-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  position: absolute;
+  width: 473px;
+  height: 44px;
+  left: 38px;
+  top: 626px;
+  background: #3A69D2;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+img {
+  border: none;
+  box-sizing: border-box;
+}
+
+.send-invoice-style {
+  margin: 0;
+  margin-left: 14px;
+}
+
+.removers {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+  /* identical to box height, or 250% */
+  color: #D5D4D8;
+  margin-left: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}

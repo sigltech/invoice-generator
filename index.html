@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      <link rel="stylesheet" href="index.css">
+      <title>Invoice Creater</title>
+
+    </head>
+    <body>
+      <header>
+
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+
+      </header>
+
+      <main>
+
+        <div class="task-buttons">
+          <button type="button" name="button1" id="carwash-btn">Wash Car: $10</button>
+          <button type="button" name="button2" id="mowlawn-btn">Mow Lawn: $20</button>
+          <button type="button" name="button3" id="pullweeds-btn">Pull Weeds: $30</button>
+        </div>
+
+        <div class="output-list">
+
+          <div class="task-output-list">
+
+            <ul id="task-list">
+              <li id="task-items">TASK</li>
+            </ul>
+
+            <ul id="tasks">
+
+            </ul>
+
+          </div>
+
+          <div class="amount-output-list">
+
+            <ul id="amount-list">
+              <li id="amount-items">TOTAL</li>
+            </ul>
+
+            <ul id="total">
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="sum-line"></div>
+
+        <div class="totals-and-notes">
+
+          <div class="notes">
+
+            <h2>NOTES</h2>
+            <p>We accept cash, credit card, or PayPal</p>
+
+          </div>
+
+          <div class="final-sum">
+
+            <h2>TOTAL AMOUNT</h2>
+            <p>$<span id="total-sum">0</span></p>
+
+          </div>
+
+        </div>
+
+        <div class="reset-btn">
+
+          <button id="reset-btn" type="button" name="rest"><img src="images/mail_Icon.png" alt="mail letter icon"> <span class="send-invoice-style">RESET INVOICE DOCUMENT</span></button>
+
+        </div>
+
+      </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
